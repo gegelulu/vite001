@@ -1,0 +1,9 @@
+/*! @import */
+:root {
+    --color-test01: #6EE7B7;
+    --color-test02: #FCD34D;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

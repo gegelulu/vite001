@@ -10,10 +10,15 @@
   </p>
 
   <button type="button" @click="state.count++">count is: {{ state.count }}</button>
-  <p>
-    Edit
-    <code>components/HelloWorld.vue</code> to test hot module replacement.
-  </p>
+  <div class="p-6 max-w-sm justify-center bg-white rounded-xl shadow-md flex items-center space-x-4">
+    <div class="flex-shrink-0">
+      <img src="../assets/logo.png" alt="" class="h-12 w-12">
+    </div>
+    <div>
+      <div class="text-xl font-medium text-black">chitChat</div>
+      <p class="text-gray-500">you have a new message</p>
+    </div>
+  </div>
 </template>
 
 <script setup>
